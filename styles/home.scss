@@ -1,38 +1,103 @@
-#categ_head {
+main {
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+  .categories {
+    font-family: Monstserrat, sans-serif;
+  }
+  
+  #categ_head {
     margin-bottom: 50px;
-}
-
-.categories h2 {
+  }
+  
+  .categories h2 {
     display: inline;
-}
-
-.categories article {
+    color: #EA5455;
+  }
+  
+  .categories a {
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: small;
+  }
+  
+  .nico_flexParent {
     display: grid;
-    grid-template: 1fr 1fr / repeat(6,1fr) ;
+    grid-template: 1fr 1fr/repeat(6, 1fr);
+    gap: 1em;
     color: white;
-}
-
-.nico_flex {
-    /*display: flex;*/
-
-}
-
-.nico_flex div {
-    /*display: flex;
+  }
+  
+  .nico_flexParent div {
+    display: flex;
     flex-direction: column;
-    align-items: center;*/
-    vertical-align: middle;
-    width: 165px;
-    height: 165px;
+    align-items: center;
+    justify-content: center;
+  
+    width: 100px;
+    height: 100px;
     background-color: #2D4059;
     border-radius: 10%;
+    padding-top: 20px;
+  }
+  
+  .nico_flexParent div p {
+    text-align: center;
+  }
+  
+#meilleures-ventes-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1250px;
 }
 
-/* NE FAIT RIEN
-.nico_flex div i {
-    margin: 0 auto;
-}*/
+.meilleures-ventes-component {
+    height: 261px;
+    width: 263px;
+    background-color: #FCFCFC;
+    box-shadow: 0 0px 19px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-.nico_flex div p {
-    text-align: center;
+.meilleures-ventes-image{
+    width: 217px;
+    height: 186px;
+    margin-left: 24px;
+    margin-right: 23.61px;
+}
+
+.meilleures-ventes-font {
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.meilleures-ventes-etiquette {
+    margin-left: 24px;
+    margin-right: 23.61px;
+}
+
+.meilleures-ventes-commerce{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.meilleures-ventes-titre-produit{
+    margin-bottom: 7px;
+}
+
+.meilleures-ventes-prix-produit {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.meilleures-ventes-stock-produit{
+    color: #42CC58;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.fa-solid {
+    color: #EA5455;
 }
