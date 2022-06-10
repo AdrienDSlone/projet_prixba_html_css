@@ -1,6 +1,10 @@
-h1 {
-  color: aqua;
+#meilleures-ventes-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1250px;
 }
+
 
 header {
   display: flex;
@@ -116,6 +120,55 @@ nav {
 
 .logo_paragrapth:nth-child(1) {
   font-weight: bold;
+}
+.meilleures-ventes-component {
+  height: 261px;
+  width: 263px;
+  background-color: #FCFCFC;
+  box-shadow: 0 0px 19px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.meilleures-ventes-image {
+  width: 217px;
+  height: 186px;
+  margin-left: 24px;
+  margin-right: 23.61px;
+}
+
+.meilleures-ventes-font {
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+.meilleures-ventes-etiquette {
+  margin-left: 24px;
+  margin-right: 23.61px;
+}
+
+.meilleures-ventes-commerce {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.meilleures-ventes-titre-produit {
+  margin-bottom: 7px;
+}
+
+.meilleures-ventes-prix-produit {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.meilleures-ventes-stock-produit {
+  color: #42CC58;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.fa-solid {
+  color: #EA5455;
+
 }
 
 /*# sourceMappingURL=style.css.map */
