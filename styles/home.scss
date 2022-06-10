@@ -1,0 +1,38 @@
+#categ_head {
+    margin-bottom: 50px;
+}
+
+.categories h2 {
+    display: inline;
+}
+
+.categories article {
+    display: grid;
+    grid-template: 1fr 1fr / repeat(6,1fr) ;
+    color: white;
+}
+
+.nico_flex {
+    /*display: flex;*/
+
+}
+
+.nico_flex div {
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;*/
+    vertical-align: middle;
+    width: 165px;
+    height: 165px;
+    background-color: #2D4059;
+    border-radius: 10%;
+}
+
+/* NE FAIT RIEN
+.nico_flex div i {
+    margin: 0 auto;
+}*/
+
+.nico_flex div p {
+    text-align: center;
+}

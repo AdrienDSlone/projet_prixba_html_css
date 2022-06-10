@@ -1,9 +1,49 @@
-h1 {
-  color: aqua;
+main {
+  width: 75%;
+  margin: 0 auto;
 }
 
-h1 {
-  color: aqua;
+.categories {
+  font-family: Monstserrat, sans-serif;
+}
+
+#categ_head {
+  margin-bottom: 50px;
+}
+
+.categories h2 {
+  display: inline;
+  color: #EA5455;
+}
+
+.categories a {
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: small;
+}
+
+.nico_flexParent {
+  display: grid;
+  grid-template: 1fr 1fr/repeat(6, 1fr);
+  gap: 1em;
+  color: white;
+}
+
+.nico_flexParent div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100px;
+  height: 100px;
+  background-color: #2D4059;
+  border-radius: 10%;
+  padding-top: 20px;
+}
+
+.nico_flexParent div p {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
