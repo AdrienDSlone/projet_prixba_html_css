@@ -1,3 +1,93 @@
-h1 {
-   color: aqua; 
+/*--- tous ---*/
+
+footer h2 , footer a , footer p {
+    font-family: sans-serif;
+}
+footer a {
+    text-decoration: none;
+}
+
+
+/*---top---*/
+
+.footer-part-top {
+    background-color:  #2D4059;
+    display: flex;
+    justify-content: center;
+}
+.ohlala {
+    display: flex;
+}
+footer i {
+    background-color: #c6c5c5;
+    border-radius: 100%;
+    padding: 15px;
+    color: #EA5455;
+}
+.footer-caixa h2 {
+    color: white;
+}
+.footer-caixa p {
+    font-size: small;
+    color:#e5e5e5 ;
+}
+.footer-caixa {
+    padding: 35px;
+}
+.footer-part-top h2 {
+    padding: 10px 0;
+    font-size: large;
+}
+
+/*----- mid ----*/
+
+.footer-part-mid {
+    background-color: #e5e5e5 ;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-part-mid a  {
+    font-size: x-large;
+}
+.footer-triplette {
+    padding: 50px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer-part-mid .umo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.footer-part-mid .dois {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+  /* -----  bottom ----- */
+
+.footer-part-bottom {
+    background-color:  #2D4059;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MLCGUV {
+    margin: 0 auto;
+}
+.MLCGUV a {
+    inline-size: auto;
+    padding: 4px;
+    font-size: normal;
 }
